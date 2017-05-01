@@ -38,6 +38,8 @@ public class Filip {
 					black.add(boardArray[row][column]);
 				}else if(boardArray[row][column].getState() == PenteMain.WHITE){
 					white.add(boardArray[row][column]);
+				}else{
+					
 				}
 			}
 		}
